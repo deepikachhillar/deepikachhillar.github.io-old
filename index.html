@@ -5,9 +5,22 @@ title: deepikachhillar.github.io
 <html>
 <head>
 <style>
-img {
-  border-radius: 50%;
+
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
 }
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -25%; //centers the image
+  height: 100%;
+  width: auto;
+}
+	
 </style>
 </head>
 <body>
@@ -17,11 +30,21 @@ img {
 		<p>I am a doctoral student of Organizational Theory in <a href="https://giesbusiness.illinois.edu/business-administration" target="_blank">Business Administration</a> at the <a href="https://giesbusiness.illinois.edu" target="_blank">Gies College of Business</a>, University of Illinois at Urbana-Champaign. I am currently in my second year of graduate studies.</p>
 		<p> My research interests and active projects are three-fold: (a) organizational culture and it's influence on institutions (b) Innovation Ecosystems and (c) Digital Governance of AI and Big Data  </p>
 	</div>
-	
 	<div class="image-cropper">
- 	 <img src="files/Business Dept_Profile Pic_Deepika copy.JPG" alt="avatar" width="300" height="300" >
+		
+  <img src="files/Business Dept_Profile Pic_Deepika copy.jpg" alt="avatar" class="profile-pic">
+
+	<!-- In header
+	img { border-radius: 50%; }
+	-->
 	
-	<!-- <div class="col-sm-5">
+	<!-- <div class="image-cropper">
+ 	 <img src="files/Business Dept_Profile Pic_Deepika copy.JPG" alt="avatar" width="300" height="300" >
+	-->
+	
+	<!--
+	
+	 <div class="col-sm-5">
 		<a href="https://giesbusiness.illinois.edu/profile/deepika-chhillar" target="_blank">
 			<img class="circular-square" alt="Deepika Chhillar" src="files/Business Dept_Profile Pic_Deepika copy.JPG" style="height:256px"/>
 		</a> -->
